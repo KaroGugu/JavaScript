@@ -10,4 +10,4 @@ function numsFrom1to10(){
     console.log(9)
     console.log(10)
 }
-numsFrom1to10();
+// numsFrom1to10();
