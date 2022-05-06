@@ -11,8 +11,8 @@ function fish_tank(input){
     console.log(needed_water)
 }
 
-fish_tank(["85 ",
-"75 ",
-"47 ",
-"17 "]
-)
+// fish_tank(["85 ",
+// "75 ",
+// "47 ",
+// "17 "]
+// )
