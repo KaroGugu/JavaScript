@@ -1,18 +1,17 @@
-function numbersDivisible([num1, num2]){   //  аргументите на входа да са обвити в масив   // 60 / 100 in Judge
-    let firstNumber = num1;
-    let secondNumber = num2;
+function numbersDivisible(input){
+    let start = Number(input[0]);
+    let end = Number(input[1]);
+    let sum = 0
+    let numbers = ''
 
-    let sum = 0;
-    let outputNumbers = '';
-
-    for (let i = firstNumber; i <= secondNumber; i++){
+    for (let i = start; i <= end; i ++){
         if (i % 9 == 0){
             sum += i
-            outputNumbers += i + '\n'
+            numbers += i + '\n'
         }
-    } 
+    }
     console.log(`The sum: ${sum}`)
-    console.log(outputNumbers)
+    console.log(numbers)
 }
 
 // numbersDivisible((["100", "200"]))
